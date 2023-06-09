@@ -82,3 +82,63 @@ pras redes sociais, além da área de pesquisa */
     margin-bottom: 7.5px;
     background-color: red;
 }
+
+/* Lugar onde vou fazer a parte do menu com dropdown */
+
+.menu{
+    height: 40px;
+    background-color: red;
+}
+.menuint{
+    width: 100%;
+    max-width: 1040px;
+    height: 40px;
+    margin: auto;
+}
+.menuint > ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menuint li{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+.submenu{
+    width: 150px;
+    background-color: red;
+    position: absolute;
+    display: none;
+}
+
+.menu li:hover .submenu{
+    display: block;
+}
+.submenuitem{
+    width: 140px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+.submenu > a:hover .submenuitem{
+    background-color: rgb(156, 0, 0);
+}
+
+
+/* MISC */
+
+.arrow{
+    filter: invert(1);
+    transform: rotate(-90deg);
+    transition: all linear .1s;
+}
+.menu li:hover .arrow{
+    transform: rotate(90deg);
+}
