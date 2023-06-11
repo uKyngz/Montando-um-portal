@@ -142,3 +142,140 @@ pras redes sociais, além da área de pesquisa */
 .menu li:hover .arrow{
     transform: rotate(90deg);
 }
+
+/* Últimas notícias */
+
+.ultnot{
+    height: 40px;
+}
+.ultnotint{
+    width: 100%;
+    max-width: 1040px;
+    height: 40px;
+    margin: auto;
+}
+.ultnotarea{
+    height: 28px;
+    background-color: white;
+    border: 1px solid gray;
+    margin-top: 10px;
+}
+.ultnotl{
+    background-color: red;
+    color: white;
+    height: 28px;
+    line-height: 28px;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+}
+.ultnotr{
+    color: black;
+    height: 28px;
+    line-height: 28px;
+    display: inline-block;
+    padding-left: 5px;
+}
+
+/* Conteúdo do portal inteiro */
+
+.contentint{
+    width: 100%;
+    max-width: 1040px;
+    margin: auto;
+}
+.leftside{
+    width: 753px;
+    min-height: 200px;float: left;
+}
+.rightside{
+    width: 275px;
+    min-height: 200px;
+    float: right;
+    margin-left: 12px;
+}
+
+/* widgets */
+
+.widget{
+    background-color: white;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+}
+.widtitle{
+    height: 30px;
+    line-height: 30px;
+    padding-left: 5px;
+    font-size: 14px;
+    border-bottom: 1px solid gray;
+    background-color: lightgrey;
+}
+.widcontent{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.notitem{
+    font-size: 14px;
+    margin: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    border-bottom: 1px solid gray;
+}
+.notitem a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Slideshow */
+
+.slideshow{
+    height: 355px;
+    overflow: hidden;
+}
+.slideshowarea{
+    width: 100000px;
+    height: 355px;
+    transition: all 1s;
+}
+.slide{
+    height: 355px;
+    float: left;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+.slideinf{
+    width: 753px;
+    height: 70px;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 15%, rgba(0,212,255,0) 100%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 295px;
+    color: white;
+}
+.slideinftitle{
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+.slideinfsubtitle{
+    font-size: 13px;
+    padding-left: 20px;
+}
+.slideposition{
+    position: absolute;
+    width: 200px;
+    height: 20px;
+}
+.slidepositiondot{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-right: 5px;
+    cursor: pointer;
+    background-color: gray;
+    border-radius: 10px;
+}
