@@ -233,6 +233,7 @@ pras redes sociais, além da área de pesquisa */
 .slideshow{
     height: 355px;
     overflow: hidden;
+    margin-bottom: 20px;
 }
 .slideshowarea{
     width: 100000px;
@@ -269,6 +270,7 @@ pras redes sociais, além da área de pesquisa */
     position: absolute;
     width: 200px;
     height: 20px;
+    margin: 5px;
 }
 .slidepositiondot{
     width: 20px;
@@ -278,4 +280,63 @@ pras redes sociais, além da área de pesquisa */
     cursor: pointer;
     background-color: gray;
     border-radius: 10px;
+}
+
+/* Notícias principais */
+
+.notarea1{
+    width: 430px;
+    height: 420px;
+    float: left;
+}
+.notarea2{
+    width: 320px;
+    height: 420px;
+    float: left;
+}
+.notarea2item{
+    text-align: left;
+    height: 88px;
+    margin-top: 7.5px;
+    margin-bottom: 7.5px;
+}
+.notimg{
+    width: 80px;
+    height: 80px;
+    border: 1px solid gray;
+    padding: 3px;
+    float: left;
+}
+.nottitle{
+    float: left;
+    margin-left: 6px;
+    font-size: 16px;
+    width: 226px;
+}
+.notinf{
+    width: 226px;
+    float: left;
+    font-size: 12px;
+    margin-left: 6px;
+    color: #999;
+}
+.principalnot{
+    margin-left: 10px;
+    margin-right: 28px;
+}
+.principalnot .notimg{
+    width: 384px;
+    height: 222px;
+}
+.principalnot .notimg img{
+    width: 384px;
+    height: 222px;
+}
+.principalnot .nottitle{
+    font-size: 30px;
+    width: 384px;
+}
+.notarea1 a , .notarea2 a{
+    text-decoration: none;
+    color: black;
 }
