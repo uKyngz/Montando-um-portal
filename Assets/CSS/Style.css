@@ -70,7 +70,7 @@ pras redes sociais, além da área de pesquisa */
     margin: auto;
 }
 .logo{
-    width: 320px;
+    width: 95px;
     height: 95px;
     float: left;
 }
@@ -142,6 +142,10 @@ pras redes sociais, além da área de pesquisa */
 .menu li:hover .arrow{
     transform: rotate(90deg);
 }
+.sandwich{
+    filter: invert(1);
+    display: none;
+}
 
 /* Últimas notícias */
 
@@ -187,12 +191,14 @@ pras redes sociais, além da área de pesquisa */
 }
 .leftside{
     width: 753px;
-    min-height: 200px;float: left;
+    min-height: 200px;
+    float: left;
 }
 .rightside{
+    display: block;
     width: 275px;
     min-height: 200px;
-    float: right;
+    float: left;
     margin-left: 12px;
 }
 
@@ -339,4 +345,147 @@ pras redes sociais, além da área de pesquisa */
 .notarea1 a , .notarea2 a{
     text-decoration: none;
     color: black;
+}
+
+/* Responsividade do site */
+
+@media (width>917) , (width<1067px){
+    
+    .topoint , .topo2int , .menuint , .ultnotint , .contentint{
+        max-width: 890px;
+    }
+    .leftside{
+        width: 600px;
+    }
+    .notarea1{
+        width: 278px;
+    }
+    .principalnot .notimg{
+        width: 245px;
+    }
+    .principalnot .notimg img{
+        width: 245px;
+    }
+    .principalnot .nottitle {
+        font-size: 25px;
+        width: 245px;
+    }
+
+}
+
+@media (max=width>784px) , (width<917px){
+
+    .topoint , .topo2int , .menuint , .ultnotint , .contentint{
+        max-width: 758px;
+    }
+    .topo2 .pub{
+        display: none;
+    }
+    .logo{
+        float: none;
+        margin: auto;
+    }
+    .rightside{
+        display: none;
+    }
+    .leftside{
+        float: none;
+        width: auto;
+    }
+    .notarea1{
+        width: 435px;
+    }
+    .principalnot .notimg{
+        width: 410px;
+    }
+    .principalnot .notimg img{
+        width: 410px;
+    }
+    .principalnot .nottitle {
+        font-size: 25px;
+        width: 410px;
+    }
+
+}
+
+@media (width<784px) {
+
+    .topoint , .topo2int , .menuint , .ultnotint , .contentint{
+        max-width: 320px;
+    }
+    .topointleft{
+        display: none;
+    }
+    .topointright{
+        width: 100%;
+    }
+    .topo2 .pub{
+        display: none;
+    }
+    .logo{
+        float: none;
+        margin: auto;
+    }
+    .sandwich{
+        display: block;
+    }
+    .menu ul{
+        position: absolute;
+        background-color: red;
+        z-index: 10;
+        display: none;
+    }
+    .menu li{
+        float: none;
+        height: auto;
+    }
+    .menu li img{
+        display: none;
+    }
+    .submenu{
+        position: static;
+        display: block;
+    }
+    .ultnot{
+        display: none;
+    }
+    .rightside{
+        display: none;
+    }
+    .leftside{
+        margin-top: 10px;
+        float: none;
+        width: auto;
+    }
+    .notarea1{
+        width: 320px;
+        height: auto;
+    }
+    .principalnot .notimg{
+        width: 290px;
+    }
+    .principalnot .notimg img{
+        width: 290px;
+    }
+    .principalnot .nottitle {
+        font-size: 25px;
+        width: 290px;
+    }
+    .notarea2{
+        width: 300px;
+        margin: auto;
+        float: none;
+        clear: both;
+        padding-top: 20px;
+    }
+    .nottitle{
+        width: 206px;
+    }
+    .notinf{
+        width: 206px;
+    }
+    .notarea2item{
+        clear: both;
+    }
+
 }
